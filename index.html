@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>IndexedDb</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div>
+        <button id="load">Carregar dados</button>
+      </div>
+      <div class="addContainer">
+        <div >
+          <label>Id do usuário</label>
+          <input id="deleteInput" />
+        </div>
+  
+        <button class="clear">Limpar dado</button>
+      </div>
+      <div class="addContainer">
+        <div>
+          <label>Nome</label>
+          <input id="name" />
+        </div>
+        <div>
+          <label>Senha</label>
+          <input id="password" />
+        </div>
+  
+        <button id="add">Adicionar</button>
+      </div>
+    </div>
+    <table id="users"></table>
+  </body>
+  <script src="./index.js"></script>
+</html>
